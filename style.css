@@ -1,0 +1,122 @@
+header{
+	background-color: #6ab47b;
+	border-color: #599a68;
+	border-radius: 20px;
+	text-align: center;
+}
+nav{
+	background: #599a68;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+nav a{
+	text-decoration: none;
+}
+nav a, nav a:visited {
+  color: #fff;
+}
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+#wrapper ul{
+	list-style-type: none;
+}
+#pancake img{
+	border-radius: 100px 20px;
+	margin: 0 25%;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.25);
+	overflow: hidden;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-ms-transition: 1s;
+}
+#pancake img:hover{
+	transform: scale(1.5,1.5);
+	-webkit-transform: scale(1.5,1.5);
+	-ms-transform: scale(1.5,1.5);
+}
+#pancakeLeft {
+	float:left;
+	margin:0 5%;
+	width:40%;
+}
+#pancakeRight{
+	line-height: 200%;
+	float: right;
+	margin:0 5%;
+	width:40%;
+}
+#cajun{
+	clear: both;
+}
+#cajun img{
+	border-radius: 50%;
+	margin: 0 25%;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.25);
+	overflow: hidden;
+	transition: 2s;
+	-webkit-transition:2s;
+	-ms-transition:2s;
+}
+#cajun img:hover{
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+	box-shadow:  15px 15px 15px 15px rgba(255,0,255,0.25);
+}
+#cajunLeft {
+	float:left;
+	margin:0 5%;
+	width:40%;
+}
+#cajunRight{
+	line-height: 200%;
+	float: right;
+	margin:0 5%;
+	width:40%;
+}
+#pesto{
+	clear: both;
+}
+#pesto img{
+	border-radius: 20px 100px;
+	margin: 0 25%;
+	box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.25);
+	overflow: hidden;
+	transition: 2s;
+	-webkit-transition:2s;
+	-ms-transition:2s;
+}
+#pesto img:hover{
+	-webkit-transform: translate(100px,50px);
+	-ms-transform: translate(100px,50px);
+	transform: translate(100px,50px);
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+}
+#pestoLeft {
+	float:left;
+	margin:0 5%;
+	width:40%;
+}
+#pestoRight{
+	line-height: 175%;
+	float: right;
+	margin:0 5%;
+	width:40%;
+}
+footer{
+	clear: both;
+	background-color: #6ab47b;
+	border-color: #599a68;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+}
